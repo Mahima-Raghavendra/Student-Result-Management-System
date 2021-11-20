@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="heading">
+			<span class="glyphicon glyphicon-user"></span>
+			<h3>Admin Login</h3>
+			<button class="glyphicon glyphicon-log-out" onclick="location.href='logout_admin.php'">Logout</button>
+		</div>
+		<div class="contents">
+			<div class="topic">
+				<span class="subtopic">Dashboard</span>
+			</div>
+			<div id="extras">
+				<h3>Welcome to the admin section of the student result management system<h3>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="students">
+						<a class="dashboard-stat" href="students-list.html" style="text-decoration: none;">
+							<div>
+								<div class="number counter">5</div>
+								<div class="name">Students</div>
+							</div>
+							<div class="bg-icon"><i class="fa fa-users"></i></div>
+						</a>
+					</div>
+					<div class="subjects">
+						<a class="dashboard-stat" href="subjects-list" style="text-decoration: none;">
+							<div>
+								<div class="number counter">5</div>
+								<div class="name">Subjects</div>
+							</div>
+							<div class="bg-icon"><i class="fa fa-ticket"></i></div>
+						</a>
+					</div>
+					<div class="classes">
+						<a class="dashboard-stat" href="classes-list" style="text-decoration: none;">
+							<div>
+								<div class="number counter">5</div>
+								<div class="name">Class</div>
+							</div>
+							<div class="bg-icon"><i class="fa fa-bank"></i></div>
+						</a>
+					</div>
+					<div class="results">
+						<a class="dashboard-stat" href="results-list" style="text-decoration: none;">
+							<div>
+								<div class="number counter">5</div>
+								<div class="name">Results</div>
+							</div>
+							<div class="bg-icon"><i class="fa fa-file-text"></i></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="notes">
+				<ul>
+					<li>Click on Students tab to add or remove students</li>
+					<li>Click on Subjects tab to add or remove subjects</li>
+					<li>Click on Classes to include classes of the students</li>
+					<li>Click on Results to update the student's result</li>
+				</ul>
+			</div>
+			<br><br><br>
+		</div>
+	</div>
+</body>
+</html>
